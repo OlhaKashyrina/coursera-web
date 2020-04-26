@@ -1,0 +1,81 @@
+body {
+    font-size: 16px;
+    background-color: #F7BE81;
+    min-width: 290px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#navigation {
+    background-color: #F8ECE0;
+    border-radius: 0;
+    border: 0;
+}
+
+#navigation button {
+    margin-top: 10px;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: #F5D0A9;
+    color: #2b2b2b;
+}
+
+.navbar-default .navbar-toggle:hover{
+    background-color: #232323;
+    color: #ececec;
+}
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 70px;
+    height: 70px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    font-weight: 700;
+}
+.navbar-brand a {
+    color: #FAAC58;
+}
+.navbar-brand a:hover {
+    text-decoration: none;
+    color: #6f6f6f;
+    transition: 200ms;
+}
+
+#nav-list {
+    background-color: #F5D0A9;
+}
+
+#nav-list a {
+    font-weight: bolder;
+    color: #282828;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#nav-list a:hover {
+    background-color: whitesmoke;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 2px solid;
+}
+
+#main-section {
+    width: 95%;
+    margin-bottom: 5%;
+}
+#main-section h1{
+    color: #eee;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.jumbotron {
+    background-color: #F8ECE0;
+}
+#collapsable-nav{
+    border: none !important;
+}
